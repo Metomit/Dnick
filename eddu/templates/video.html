@@ -1,0 +1,181 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+{% load static %}
+<link href="{% static 'admin/css/style.css' %}" rel="stylesheet">
+<link href="{% static 'custom/css/dashbrd.css' %}" rel="stylesheet">
+
+
+<style>
+    tr {
+        line-height: 40px;
+        min-height: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+    td {
+        padding-left: 20px;
+    }
+</style>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">System for online learning</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="select_course">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="logout">Log Out</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="content">
+    <div class="content-panel">
+        <div class="vertical-tabs">
+            <a href="select_course">View all</a>
+            <a href="books">Books</a>
+            <a href="video" class="active">Videos</a>
+            <a href="stream">Livestreams</a>
+        </div>
+    </div>
+    <div class="content-main">
+        <div class="card-grid">
+            <article class="card">
+                <div class="card-header">
+                    <div>
+                        <span><img src="https://cdn-icons-png.flaticon.com/512/2898/2898856.png" /></span>
+                        <h3>Build Your First Machine Learning AI With Neural Networks</h3>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p>By Web Dev Simplified</p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://www.youtube.com/watch?v=60c4rMq-aH0">Watch video</a>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-header">
+                    <div>
+                        <span><img src="https://cdn-icons-png.flaticon.com/512/2898/2898856.png" /></span>
+                        <h3>What is artificial intelligence?</h3>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p>By Simplilearn</p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://www.youtube.com/watch?v=ad79nYk2keg">Watch video</a>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-header">
+                    <div>
+                        <span><img src="https://cdn-icons-png.flaticon.com/512/2898/2898856.png" /></span>
+                        <h3>Artificial intelligence full course</h3>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p>By edureka!</p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://www.youtube.com/watch?v=JMUxmLyrhSk">Watch video</a>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-header">
+                    <div>
+                        <span><img src="https://cdn-icons-png.flaticon.com/512/2898/2898856.png" /></span>
+                        <h3>Coming soon</h3>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p>More awesome stuff coming soon!</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#">Watch video</a>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-header">
+                    <div>
+                        <span><img src="https://cdn-icons-png.flaticon.com/512/2898/2898856.png" /></span>
+                        <h3>Coming soon</h3>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p>More awesome stuff coming soon!</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#">Watch video</a>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-header">
+                    <div>
+                        <span><img src="https://cdn-icons-png.flaticon.com/512/2898/2898856.png" /></span>
+                        <h3>Coming soon</h3>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p>More awesome stuff coming soon!</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#">Watch video</a>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-header">
+                    <div>
+                        <span><img src="https://cdn-icons-png.flaticon.com/512/2898/2898856.png" /></span>
+                        <h3>Coming soon</h3>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p>More awesome stuff coming soon!</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#">Watch video</a>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-header">
+                    <div>
+                        <span><img src="https://cdn-icons-png.flaticon.com/512/2898/2898856.png" /></span>
+                        <h3>Coming soon</h3>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p>More awesome stuff coming soon!</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#">Watch video</a>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card-header">
+                    <div>
+                        <span><img src="https://cdn-icons-png.flaticon.com/512/2898/2898856.png" /></span>
+                        <h3>Coming soon</h3>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p>More awesome stuff coming soon!</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#">Watch video</a>
+                </div>
+            </article>
+        </div>
+    </div>
+  </div>

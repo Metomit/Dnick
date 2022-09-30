@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Soleil;
+    src: url(SoleilRegular.otf);
+}
+*{
+    font-family: "Soleil",Arial,sans-serif;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+    background-color: #13a8b1 !important;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light a {
+    color: white !important;
+}
+
+#aboutdiv{
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+body{
+    background-color: white;
+}

@@ -1,0 +1,54 @@
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  {% load static %}
+  <link href="{% static 'admin/css/style.css' %}" rel="stylesheet">
+  
+  <style>
+      tr {
+          line-height: 40px;
+          min-height: 40px;
+          height: 40px;
+      }
+      td {
+          padding-left: 20px;
+      }
+  </style>
+  </head>
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">System for online learning</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="select_course">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="logout">Log Out</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <img style="position: absolute; top: 25%; left: 5%; width: 20%;" src="{% static 'custom/img/cogs.png' %}">
+    <img style="position: absolute; top: 25%; left: 75%; width: 20%; transform: scaleX(-1);" src="{% static 'custom/img/cogs.png' %}">
+    <div id="aboutdiv" style="width: 640; height: 360; margin: auto; margin-top: 10%;">
+      <h1 style="font-weight: bold;">About Us</h1>
+      <article><div class="section-description"><p>
+        Our mission is to inspire and develop people to achieve their goals in AI —
+        one person, one question, and one small commitment to learning at a time.
+      </p> <p class="no-margin-bottom">
+        We enable great minds to illuminate the soul of math, science, and engineering
+        through bite-sized, interactive learning experiences. Our courses explore the AI
+        that shapes our modern world, elevating math and science from something to be feared to a
+        delightful experience of guided discovery.
+      </p></div> <div class="section-image"><img src="{% static 'custom/img/robot.jpg' %}" alt="Bot doing math" class="no-margin-bottom" style="height:100%;"></div></article>
+  </div>
